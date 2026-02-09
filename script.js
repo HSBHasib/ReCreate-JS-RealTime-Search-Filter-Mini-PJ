@@ -203,6 +203,7 @@ function showCards(arr) {
 
 }
 
+// Initially Display 6 cards 
 function showInitialCards() {
   const shuffled = [...users].sort(() => 0.5 - Math.random());
   const sixCards = shuffled.slice(0, 6);  
